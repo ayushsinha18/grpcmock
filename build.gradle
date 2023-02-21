@@ -1,0 +1,162 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+    mavenCentral()
+
+    /* SAND Rasmalai */
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/rasmalai"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/conan"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-protofiles"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-controller"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-enrich"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-orderability"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-ab"
+    }
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-repository/snapshots"
+    }
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-enrichment-client-release"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-orderability-client-release"
+    }
+
+    /* Swiggy Commons */
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/swiggy-commons-releases"
+    }
+    maven {
+        credentials {
+            username "data-platform"
+            password "XdJCwNvgWF3w"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/data-platform-releases"
+    }
+    maven {
+        credentials {
+            username "data-platform"
+            password "XdJCwNvgWF3w"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-commons-releases"
+    }
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/lm-api-java-releases"
+    }
+
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/clm-api-java-snapshots"
+    }
+    maven {
+        credentials {
+            username "admin"
+            password "tQNeWoa4CzWJ7r6e"
+        }
+        url "http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/proto-defs-releases"
+    }
+
+    mavenLocal()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'com.swiggy.sand.sand-controller:sand-orderability:1.2.8-RELEASE'
+    implementation 'com.swiggy.sand.proto:sand-proto-scube-java:0.5.7-RELEASE'
+    compile('org.projectlombok:lombok:1.16.20')
+    compile group: 'com.github.tomakehurst', name: 'wiremock-jre8', version: '2.26.1'
+    compile "org.apache.commons:commons-text:1.3"
+    compile 'com.google.protobuf:protobuf-java:3.15.3'
+    compile 'com.google.protobuf:protobuf-java-util:3.15.3'
+    compile('com.swiggy.sand.proto:sand-proto-entity-layer-java:0.1.0-RELEASE')
+    compile 'org.skyscreamer:jsonassert:1.5.0'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.1.4'
+//    compile('com.swiggy.sand.rasmalai:rasmalai-aggregator:1.13.51-RELEASE')
+//    compile('com.swiggy.sand.rasmalai:rasmalai-core:1.13.52-RELEASE') {
+//        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-log4j2'
+//        exclude group: 'org.apache.tomcat.embed'
+//        exclude group: 'org.hibernate'
+//    }
+}
+
+test {
+    useJUnitPlatform()
+}

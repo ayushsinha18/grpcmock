@@ -1,0 +1,188 @@
+{
+  "cust_info": {
+    "customer_zone": 4
+  },
+  "restaurant_map": {
+    "1031": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "1031",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 1031,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "serviceability": 2,
+          "rain_mode": "0",
+          "surge": {},
+          "space_slot": "long_distance",
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    },
+    "6928": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "6928",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 6928,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "serviceability": 2,
+          "rain_mode": "0",
+          "space_slot": "long_distance",
+          "surge": {},
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    },
+    "18275": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "18275",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 18275,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "space_slot": "long_distance",
+          "serviceability": 2,
+          "rain_mode": "0",
+          "surge": {},
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    },
+    "19232": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "19232",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 19232,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "serviceability": 2,
+          "space_slot": "long_distance",
+          "rain_mode": "0",
+          "surge": {},
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    },
+    "51541": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "51541",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 51541,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "serviceability": 2,
+          "space_slot": "long_distance",
+          "rain_mode": "0",
+          "surge": {},
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    },
+    "106920": {
+      "present_in_main_response": true,
+      "restaurant": {
+        "rest_id": "106920",
+        "area_id": 4,
+        "city_id": 1,
+        "serviceability_data": {
+          "rest_id": 106920,
+          "delivery_time": 39,
+          "min_delivery_time": 35,
+          "max_delivery_time": 40,
+          "last_mile_distance": 4.53,
+          "serviceability": 2,
+          "space_slot": "long_distance",
+          "rain_mode": "0",
+          "surge": {},
+          "stress": {
+            "value": 0.33333334,
+            "components": {
+              "de": 0.33333334
+            }
+          },
+          "zone_id": 4
+        }
+      },
+      "availability": {
+        "opened": true,
+        "nextChangeTime": 1588612500000
+      }
+    }
+  },
+  "expire_time": 1588591450000
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-orderability" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven12" />
+      <option name="name" value="maven12" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/data-platform-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/conan" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven10" />
+      <option name="name" value="maven10" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-orderability-client-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/rasmalai" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven11" />
+      <option name="name" value="maven11" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/swiggy-commons-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven14" />
+      <option name="name" value="maven14" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/lm-api-java-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenLocal" />
+      <option name="name" value="MavenLocal" />
+      <option name="url" value="file:$MAVEN_REPOSITORY$/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven3" />
+      <option name="name" value="maven3" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-protofiles" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven15" />
+      <option name="name" value="maven15" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/clm-api-java-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven8" />
+      <option name="name" value="maven8" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-repository/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="BintrayJCenter" />
+      <option name="name" value="BintrayJCenter" />
+      <option name="url" value="https://jcenter.bintray.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven4" />
+      <option name="name" value="maven4" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-controller" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven5" />
+      <option name="name" value="maven5" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-enrich" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven13" />
+      <option name="name" value="maven13" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-commons-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/sand-ab" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven16" />
+      <option name="name" value="maven16" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/proto-defs-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven9" />
+      <option name="name" value="maven9" />
+      <option name="url" value="http://shr-p-nexus-02-dash.swiggyops.de/nexus/repository/dash-enrichment-client-release" />
+    </remote-repository>
+  </component>
+</project>
